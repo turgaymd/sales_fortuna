@@ -7,15 +7,28 @@ h1{
     text-align: center;
 }
 
-.testimonial-logo img{
-  width: 200px;
-  object-fit: contain;
-  height:100px;
+
+
+.testimonial {
+    border: 1px solid #B6B1B1;
+    border-radius: 10px;
+    padding: 1.5rem;
+    height: 500px;
+
 }
 .testimonial-logo{
     display: flex;
     justify-content: flex-start;
     padding-bottom: 0.7rem;
+}
+.testimonial-logo img{
+  width: 200px;
+  object-fit: contain;
+  height:100px;
+}
+.testimonial-header{
+    display: flex;
+    justify-content: space-between;
 }
 .testimonial p{
     color: #9B9A99;
@@ -23,23 +36,11 @@ h1{
     font-size: 20px;
     height: 200px;
 }
-.testimonial {
-    border: 1px solid #B6B1B1;
-    border-radius: 10px;
-    padding: 1.5rem;
-    height: 530px;
-
-}
-.testimonial-header{
-    display: flex;
-    justify-content: space-between;
-}
 .testimonial-author{
     display: flex;
     align-items: center;
     gap: 1rem;
     padding-top: 1.5rem;
-
 }
 .testimonial-author h5{
 font-size: 20px;
